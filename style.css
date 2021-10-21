@@ -1,6 +1,10 @@
 *{
     font-family: 'Muller';
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
     background-color: #E5E5E5;
 }
 .container{
@@ -54,11 +58,9 @@
 .nav__gray{
     margin-right: auto;
     display: flex;
-    background-color: #fff;
 }
 .nav__gray--item{
     margin-left: 45px;
-    background-color: #fff;
     font-size: 16px;
     line-height: 16px;
     color: #666666;
@@ -76,7 +78,6 @@
     background-color: #fff;
 }
 .nav__gold--item{
-    background-color: #fff;
     margin-right: 40px;
     padding: 13px 20px;
     border-radius: 15px;
@@ -92,6 +93,9 @@
 }
 .intro{
     margin-top: 70px;
+}
+.h2{
+    margin-bottom: 30px;
 }
 .intro__items{
     display: flex;
@@ -112,10 +116,53 @@
     transition: 0.3s;
     color: #FFFFFF;
     border-radius: 15px;
-    margin-bottom: 19px;
+    margin-bottom: 23px;
+    padding-top: 40px;
+    padding-left: 40px;
 }
-.intro__items--heading,
-.intro__items--price,
-.intro__items--more{
-    position: relative;
+.intro__items--first:hover{
+    position:relative;
+    z-index: 2;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%);
+}
+.intro__items--second{
+    background-image: url(./second.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    width: 570px;
+    height: 258px;
+    transition: 0.3s;
+    color: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 23px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.intro__items--heading{
+    width: 300px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+.intro__items--price{
+    font-size: 20px;
+    line-height: 20px;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+.intro__items--right{
+    background-image: url(./third.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    width: 540px;
+    transition: 0.3s;
+    color: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 23px;
+    padding-top: 260px;
+    padding-left: 40px;
 }
