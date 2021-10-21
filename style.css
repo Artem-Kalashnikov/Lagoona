@@ -1,0 +1,121 @@
+*{
+    font-family: 'Muller';
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.heading{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+.heading__logo{
+    background-image: url(./logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 261px;
+    height: 54px;
+}
+.heading__number{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 40px;
+    color: #666666;
+}
+.heading__account{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.heading__account--text{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #CC9933;
+    margin-left: 5px;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 15px;
+    align-items: center;
+    margin-top: 30px;
+}
+.nav__gray{
+    margin-right: auto;
+    display: flex;
+    background-color: #fff;
+}
+.nav__gray--item{
+    margin-left: 45px;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    color: #666666;
+    transition: 0.2s;
+}
+.nav__gray--item:hover{
+    color: #CC9933;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav__gold{
+    display: flex;
+    margin-left: auto;
+    background-color: #fff;
+}
+.nav__gold--item{
+    background-color: #fff;
+    margin-right: 40px;
+    padding: 13px 20px;
+    border-radius: 15px;
+    color: #CC9933;
+    border: 1px solid #CC9933;
+    transition: 0.2s;
+}
+.nav__gold--item:hover{
+    border-radius: 15px;
+    background-color: #CC9933;
+    color: #fff;
+    cursor: pointer;
+}
+.intro{
+    margin-top: 70px;
+}
+.intro__items{
+    display: flex;
+    justify-content: space-between;
+}
+.intro__items--left{
+    max-width: 573px;
+    display: block;
+}
+
+.intro__items--first{
+    background-repeat: no-repeat;
+    background-image: url(./first.png);
+    background-size: cover;
+    padding: 0;
+    width: 570px;
+    height: 258px;
+    transition: 0.3s;
+    color: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 19px;
+}
+.intro__items--heading,
+.intro__items--price,
+.intro__items--more{
+    position: relative;
+}
